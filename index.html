@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Under Construction</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .spinner {
+            margin: 2em auto;
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #ffffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9em;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🚧 Under Construction 🚧</h1>
+    <div class="spinner"></div>
+    <p>We're working hard to bring you something awesome.<br>Please check back soon!</p>
+</div>
+<footer>&copy; 2026 Yasmin Paint N Decor. All rights reserved.</footer>
+</body>
+</html>
