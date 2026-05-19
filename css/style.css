@@ -98,7 +98,7 @@
 }
 
 .bg-hero {
-    background: url(../img/hero.jpg) top right no-repeat;
+    /*background: url(../img/hero.jpg) top right no-repeat;*/
     background-size: contain;
 }
 
@@ -283,7 +283,7 @@
 }
 
 .bg-call-to-action {
-    background: url(../img/call-to-action.jpg) top right no-repeat;
+    /*background: url(../img/call-to-action.jpg) top right no-repeat;*/
     background-size: contain;
 }
 
