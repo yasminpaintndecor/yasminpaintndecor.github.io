@@ -71,7 +71,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.html" class="navbar-brand p-0">
+        <a href="/" class="navbar-brand p-0">
             <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-paint-roller text-secondary me-3"></i>Yasmin Pain N Decor</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -79,9 +79,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 pe-4 border-end border-5 border-primary">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#services" class="nav-item nav-link">Service</a>
+                <!--
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
@@ -91,7 +92,10 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                -->
+                <a href="#quote" class="nav-item nav-link">Quote</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <a href="https://www.instagram.com/yasminpaintndecor" target="_blank" class="nav-item nav-link">Gallery</a>
             </div>
             <div class="d-none d-lg-flex align-items-center ps-4">
                 <i class="fa fa-2x fa-mobile-alt text-secondary me-3"></i>
@@ -106,15 +110,19 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 bg-hero" style="margin-bottom: 90px;">
+    <div id="home" class="container-fluid bg-primary py-5 bg-hero" style="margin-bottom: 90px;">
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-dark">Trusted In Transforming Homes & Spaces</h1>
                     <p class="fs-4 text-dark mb-4">Painting • Renovation • Decoration Solutions</p>
                     <div class="pt-2">
+                        <!--
                         <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2">Get A Quote</a>
                         <a href="" class="btn btn-outline-secondary rounded-pill py-md-3 px-md-5 mx-2">Contact Us</a>
+                        -->
+                        <a href="https://wa.me/60182213478" target="_blank" class="btn btn-success rounded-pill py-md-3 px-md-5 mx-2"><i class="bi bi-whatsapp me-2"></i>WhatsApp Us</a>
+                        <a href="tel:+60182213478" class="btn btn-outline-secondary rounded-pill py-md-3 px-md-5 mx-2"><i class="bi bi-telephone me-2"></i>Call Now</a>
                     </div>
                 </div>
             </div>
@@ -124,14 +132,14 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div id="about" class="container-fluid py-5">
         <div class="container py-5">
             <div class="row gx-0 mb-3 mb-lg-0">
                 <div class="col-lg-6 my-lg-5 py-lg-5">
                     <div class="about-start bg-primary p-5">
                         <h1 class="display-5 mb-4">Welcome</h1>
                         <p>We are a Malaysia-based renovation and finishing company specializing in high-quality painting, decorative finishes, and interior improvement works.</p>
-                        <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Contact Us</a>
+                        <a href="#contact" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Contact Us</a>
                     </div>
                 </div>
                 <div class="col-lg-6" style="min-height: 400px;">
@@ -151,7 +159,7 @@
                         <h1 class="display-5 mb-4">Why Choose Us?</h1>
                         <p>We focus on delivering clean workmanship, affordable pricing, fast project completion, and excellent customer satisfaction.</p>
                         <p>With experience handling residential homes, condominiums, and small commercial spaces, we ensure every project is completed with professionalism, attention to detail, and high-quality finishing.</p>
-                        <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Get A Quote</a>
+                        <a href="#quote" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Get A Quote</a>
                     </div>
                 </div>
             </div>
@@ -161,7 +169,7 @@
     
 
     <!-- Services Start -->
-    <div class="container-fluid py-5">
+    <div id="services" class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h1 class="display-5">Our Services</h1>
@@ -212,7 +220,7 @@
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-eraser"></i></div>
                         </div>
-                        <h3 class="mt-5">Installation</h3>
+                        <h3 class="mt-5">Installating</h3>
                         <i>Lighting</i>
                         <i>Plaster ceiling</i>
                         <i>TV bracket mounting</i>
@@ -247,22 +255,22 @@
 
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0;">
+    <div id="quote" class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0;">
         <div class="container py-5">
             <div class="row g-0 justify-content-start">
                 <div class="col-lg-6">
                     <div class="bg-white text-center p-5">
                         <h1 class="mb-4">Get A Quote</h1>
-                        <form>
+                        <form id="quoteForm">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" id="name" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" id="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0 py-3" rows="2" placeholder="Message"></textarea>
+                                    <textarea id="message" class="form-control bg-light border-0 py-3" rows="2" placeholder="Message" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Get A Quote</button>
@@ -342,6 +350,7 @@
 
 
     <!-- Testimonial Start -->
+     <!--
     <div class="container-fluid bg-primary bg-testimonial py-5" style="margin: 90px 0;">
         <div class="container py-5">
             <div class="row g-0 justify-content-end">
@@ -350,7 +359,6 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item">
                             <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Very clean work and fast service. Highly recommended.</p>
-                            <!--
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid p-1 bg-secondary" src="img/testimonial-1.jpg" alt="">
                                 <div class="ps-3">
@@ -358,11 +366,9 @@
                                     <span class="text-uppercase">Profession</span>
                                 </div>
                             </div>
-                            -->
                         </div>
                         <div class="testimonial-item">
                             <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Affordable price and professional team. My house looks brand new.</p>
-                            <!--
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid p-1 bg-secondary" src="img/testimonial-2.jpg" alt="">
                                 <div class="ps-3">
@@ -370,11 +376,9 @@
                                     <span class="text-uppercase">Profession</span>
                                 </div>
                             </div>
-                            -->
                         </div>
                             <div class="testimonial-item">
                             <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Good communication and quality finishing. Will hire again.</p>
-                            <!--
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid p-1 bg-secondary" src="img/testimonial-2.jpg" alt="">
                                 <div class="ps-3">
@@ -382,13 +386,13 @@
                                     <span class="text-uppercase">Profession</span>
                                 </div>
                             </div>
-                            -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    -->
     <!-- Testimonial End -->
 
 
@@ -478,7 +482,7 @@
 
 
     <!-- Call To Action Start -->
-    <div class="container-fluid bg-primary bg-call-to-action py-5" style="margin-top: 90px;">
+    <div id="contact" class="container-fluid bg-primary bg-call-to-action py-5" style="margin-top: 90px;">
         <div class="container py-5">
             <div class="row g-0 justify-content-start">
                 <div class="col-lg-6">
@@ -501,7 +505,8 @@
                     We ensure a smooth, transparent, and professional process throughout your project.
                 </p>
 
-                    <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Contact Us</a>
+                    <!--<a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Contact Us</a>-->
+                    <a href="https://wa.me/60182213478" target="_blank" class="btn btn-success rounded-pill py-md-3 px-md-5 mx-2"><i class="bi bi-whatsapp me-2"></i>Contact Us</a>
                 </div>
             </div>
         </div>
@@ -516,36 +521,40 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-primary">Get In Touch</h4>
                     <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
-                    <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
-                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-calendar-alt text-primary me-2"></i>Mon - Sun</p>
+                    <p class="mb-2"></p><i class="fa fa-clock text-primary me-2"></i>9:00 AM - 6:00 PM</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Klang Valley to Seremban</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@yasminpaintndecor.com</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+60 18 221 3478</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-primary">Our Services</h4>
                     <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Regular Painting</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Wall Painting</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Floor Coating</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Graffiti Removal</a>
+                        <a class="text-light mb-2" href="#services"><i class="fa fa-angle-right me-2"></i>Painting</a>
+                        <a class="text-light mb-2" href="#services"><i class="fa fa-angle-right me-2"></i>Renovating</a>
+                        <a class="text-light mb-2" href="#services"><i class="fa fa-angle-right me-2"></i>Decorating</a>
+                        <a class="text-light mb-2" href="#services"><i class="fa fa-angle-right me-2"></i>Installating</a>
+                        <!--
                         <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Mildew Removal</a>
                         <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Window Washing</a>
+                        -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-primary">Quick Links</h4>
                     <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                        <a class="text-light mb-2" href="#home"><i class="fa fa-angle-right me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#about"><i class="fa fa-angle-right me-2"></i>About</a>
+                        <a class="text-light mb-2" href="#services"><i class="fa fa-angle-right me-2"></i>Service</a>
+                        <a class="text-light mb-2" href="#quote"><i class="fa fa-angle-right me-2"></i>Quote</a>
+                        <a class="text-light mb-2" href="#contact"><i class="fa fa-angle-right me-2"></i>Contact</a>
+                        <a class="text-light" href="https://www.instagram.com/yasminpaintndecor" target="_blank"><i class="fa fa-angle-right me-2"></i>Gallery</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
+                    <!--
                     <h4 class="text-primary">Newsletter</h4>
                     <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
                     <form action="">
@@ -554,12 +563,14 @@
                             <button class="btn btn-primary">Sign Up</button>
                         </div>
                     </form>
-                    <h6 class="text-primary mt-4 mb-3">Follow Us</h6>
+                    -->
+                    <!--<h6 class="text-primary mt-4 mb-3">Follow Us</h6>-->
+                    <h4 class="text-primary">Newsletter</h4>
                     <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                        <!-- <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/yasminpaintdecor"><i class="fab fa-facebook-f"></i></a>
+                        <!-- <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a> -->
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="https://www.instagram.com/yasminpaintndecor"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -596,6 +607,39 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("quoteForm");
+
+    if (!form) return;
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        const phone = "60182213478";
+
+        const text =
+    `*New Quote Request*
+    ---------------------
+    Name: ${name}
+    Email: ${email}
+    Message: ${message}
+    ---------------------`;
+
+        const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(text);
+
+        window.open(url, "_blank");
+    });
+
+    });
+    </script>
+
 </body>
 
 </html>
